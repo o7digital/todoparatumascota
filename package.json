@@ -1,0 +1,35 @@
+{
+  "name": "todoparatumascota",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "dev": "astro dev --host 127.0.0.1",
+    "build": "astro build",
+    "preview": "astro preview --host 127.0.0.1",
+    "test": "playwright test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/o7digital/todoparatumascota.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/o7digital/todoparatumascota/issues"
+  },
+  "homepage": "https://github.com/o7digital/todoparatumascota#readme",
+  "dependencies": {
+    "@astrojs/react": "^7.0.0",
+    "astro": "^7.3.5",
+    "react": "^19.1.1",
+    "react-dom": "^19.1.1"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.63.0",
+    "pixelmatch": "^7.2.0",
+    "pngjs": "^7.0.0"
+  },
+  "private": true
+}
